@@ -13,6 +13,7 @@ meta-spec:
   version: 1.4
 name: WWW-BrokenLinks
 requires:
+  IO::Handle: 0
   Moose: 0
   Text::CSV: 0
   URI: 0
@@ -23,4 +24,4 @@ requires:
   warnings: 0
 resources:
   bugtracker: http://github.com/pwaring/WWW-BrokenLinks/issues
-version: 0.01
+version: 0.03

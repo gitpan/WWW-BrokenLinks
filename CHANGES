@@ -1,10 +1,92 @@
 ==================================================
-Changes from 2013-04-29 00:00:00 +0000 to present.
+Changes from 2013-05-09 00:00:00 +0000 to present.
 ==================================================
 
 -----------------------------------------
-version 0.01 at 2014-04-29 18:44:00 +0000
+version 0.03 at 2014-05-09 18:09:07 +0000
 -----------------------------------------
+
+  Change: e19c3b9a2d83e12481baf0740e6b2ccbb418ec9f
+  Author: Paul Waring <paul.waring@manchester.ac.uk>
+  Date : 2014-05-09 13:26:42 +0000
+
+    Bump version to 0.03 
+
+  Change: cefc2864f0e116b0b6de982dd420d19ca6b57a1c
+  Author: Paul Waring <paul.waring@manchester.ac.uk>
+  Date : 2014-05-09 13:24:11 +0000
+
+    Document excluded_urls parameter 
+
+  Change: 4a2807ec5af276d4effb2fd778e93881d242ce36
+  Author: Paul Waring <paul.waring@manchester.ac.uk>
+  Date : 2014-05-08 10:46:28 +0000
+
+    Check final URL as well as initial absolute URL 
+
+  Change: 2d8a87f8d3a195a4f07cbac26a7845d6ecce14e9
+  Author: Paul Waring <paul.waring@manchester.ac.uk>
+  Date : 2014-05-07 16:28:46 +0000
+
+    Allow URLs to be excluded
+
+    Required feature otherwise the link checker can get stuck on pages
+    which have a huge number of self-referencing links (e.g. calendars). 
+
+  Change: 9cd5c75a2e5650051bfca20ea129c683b4b29c9e
+  Author: Paul Waring <paul.waring@manchester.ac.uk>
+  Date : 2014-05-06 12:46:10 +0000
+
+    Automatically flush STDOUT
+
+    Need to do this otherwise we cannot monitor progress (e.g. with
+    ./script.pl | tee output.txt) 
+
+  Change: 71f2d63ff15a015f963c7e20a7b44bb4cf17bfb3
+  Author: Paul Waring <paul.waring@manchester.ac.uk>
+  Date : 2014-05-06 12:27:18 +0000
+
+    Extra debugging 
+
+  Change: ffd37475471353bd385ecd5a434f59e6972bdf80
+  Author: Paul Waring <paul.waring@manchester.ac.uk>
+  Date : 2014-05-06 12:18:03 +0000
+
+    Convert say to print 
+
+  Change: a33befee109fbf4a17aa640b11c723a3d4af79fa
+  Author: Paul Waring <paul.waring@manchester.ac.uk>
+  Date : 2014-05-06 11:37:36 +0000
+
+    Ignore *.txt files 
+
+  Change: 7e3b1fec5d6d016d15edcbc5417f80b0975e35fc
+  Author: Paul Waring <paul.waring@manchester.ac.uk>
+  Date : 2014-05-02 15:52:47 +0000
+
+    Ignore broken URLs which appear more than 10 times
+
+    Chances are that if we encounter a broken URL more than 10 times, it
+    will be part of the site's header or footer, and therefore there is
+    no point in reporting it on every single page. 
+
+  Change: f6079f91b0bb106ad7a5811c80e059feb4271a0b
+  Author: Paul Waring <paul.waring@manchester.ac.uk>
+  Date : 2014-05-02 14:57:37 +0000
+
+    Prune Perl and CSV files from distribution 
+
+  Change: cf1fae20c4777f100b2c311a65fbea7f3c1e68a6
+  Author: Paul Waring <paul.waring@manchester.ac.uk>
+  Date : 2014-05-02 10:43:39 +0000
+
+    Bump version to 0.02 
+
+  Change: 4d5df83e0ae84b257a2918d9080f06d3c764bdb9
+  Author: Paul Waring <paul.waring@manchester.ac.uk>
+  Date : 2014-05-01 13:14:11 +0000
+
+    Ignore CSV files 
 
   Change: 864be37d5e4ac55629055d2ef5624fbfc615d155
   Author: Paul Waring <paul.waring@manchester.ac.uk>

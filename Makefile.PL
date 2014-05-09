@@ -21,6 +21,7 @@ my %WriteMakefileArgs = (
   "LICENSE" => "lgpl",
   "NAME" => "WWW::BrokenLinks",
   "PREREQ_PM" => {
+    "IO::Handle" => 0,
     "Moose" => 0,
     "Text::CSV" => 0,
     "URI" => 0,
@@ -30,7 +31,7 @@ my %WriteMakefileArgs = (
     "warnings" => 0
   },
   "TEST_REQUIRES" => {},
-  "VERSION" => "0.01",
+  "VERSION" => "0.03",
   "test" => {
     "TESTS" => ""
   }
@@ -38,6 +39,7 @@ my %WriteMakefileArgs = (
 
 
 my %FallbackPrereqs = (
+  "IO::Handle" => 0,
   "Moose" => 0,
   "Text::CSV" => 0,
   "URI" => 0,
