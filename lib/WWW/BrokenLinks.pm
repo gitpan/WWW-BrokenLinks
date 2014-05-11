@@ -15,7 +15,7 @@ use Text::CSV;
 
 use IO::Handle;
 
-our $VERSION = '0.03';
+our $VERSION = '0.04';
 
 has 'base_url' => (
   is => 'ro',
@@ -234,7 +234,7 @@ WWW::BrokenLinks - Finds broken links (including images) on a website.
 
 =head1 VERSION
 
-version 0.03
+version 0.04
 
 =head1 DESCRIPTION
 
@@ -259,7 +259,7 @@ The following parameters can be provided as a hash reference.
 
 =item C<request_gap> (optional): Number of seconds to wait between requests. Defaults to 1 second.
 
-=item C<output_file> (optional): Path to file where report shoud be saved. Defaults to standard output.
+=item C<output_file> (required): Path to file where report shoud be saved.
 
 =item C<excluded_urls> (optional): Array reference of URLs to excluded. Defaults to an empty array.
 

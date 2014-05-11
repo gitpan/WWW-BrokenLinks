@@ -1,10 +1,22 @@
 ==================================================
-Changes from 2013-05-09 00:00:00 +0000 to present.
+Changes from 2013-05-11 00:00:00 +0000 to present.
 ==================================================
 
 -----------------------------------------
-version 0.03 at 2014-05-09 18:09:07 +0000
+version 0.04 at 2014-05-11 14:07:50 +0000
 -----------------------------------------
+
+  Change: cae590fbe008e2c539fa40c24c449d9cbb44b3ff
+  Author: Paul Waring <paul@xk7.net>
+  Date : 2014-05-11 15:07:28 +0000
+
+    Bump version to 0.04 
+
+  Change: f158ecdc8ff11c3f84d69a42530a698fcb528226
+  Author: Paul Waring <paul@xk7.net>
+  Date : 2014-05-11 15:07:09 +0000
+
+    Output file is now required. 
 
   Change: e19c3b9a2d83e12481baf0740e6b2ccbb418ec9f
   Author: Paul Waring <paul.waring@manchester.ac.uk>

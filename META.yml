@@ -24,4 +24,4 @@ requires:
   warnings: 0
 resources:
   bugtracker: http://github.com/pwaring/WWW-BrokenLinks/issues
-version: 0.03
+version: 0.04
